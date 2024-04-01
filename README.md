@@ -20,12 +20,12 @@ Please download the [pretrained weight](https://drive.google.com/drive/folders/1
 ![](./images/comparison)
 - If you want to evaluate all datasets, run:  
 ```
-python inference_AllDataset.py
+python eval_AllDataset.py
 ```
 - Evaluate specific datasets set by gzsl, for example:  
 if you want to evaluate 'CUB' dataset, then modify `dataset: CUB` in '/config/Control.yaml'. And run:
 ```
-python inference.py
+python eval.py
 ```
 
 ### Train
