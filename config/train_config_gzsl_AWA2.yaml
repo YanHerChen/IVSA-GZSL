@@ -1,0 +1,42 @@
+dataset: AWA2
+dataroot: ./data
+
+image_embedding: res101
+class_embedding: att
+syn_num: 3600
+
+gpus: 0
+cuda: True
+gzsl: True
+save_model: False
+
+manualSeed: 1961
+attSize: 85
+resSize: 2048
+embedSize: 2048
+nclass_all: 50
+nclass_seen: 40
+
+# gan
+batch_size: 256
+nepoch: 50
+lr: 0.0001
+lr_dec_rate: 0.99
+lr_decay_epoch: 100
+beta1: 0.5
+nz: 85
+ngh: 4096
+ndh: 4096
+critic_iter: 5
+
+# gp
+lambda1: 10
+
+# classifier
+batch_cls: 128
+cls_nepoch: 25
+classifier_lr: 0.001
+
+# circle loss
+m: 0.4
+gamma: 128

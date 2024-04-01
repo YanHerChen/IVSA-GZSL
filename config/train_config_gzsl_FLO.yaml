@@ -1,0 +1,42 @@
+dataset: FLO
+dataroot: ./data
+
+image_embedding: res101
+class_embedding: att
+syn_num: 600
+
+gpus: 0
+cuda: True
+gzsl: True
+save_model: False
+
+manualSeed: 1385
+attSize: 1024
+resSize: 2048
+embedSize: 2048
+nclass_all: 102
+nclass_seen: 82
+
+# gan
+batch_size: 256
+nepoch: 500
+lr: 0.0001
+lr_dec_rate: 0.99
+lr_decay_epoch: 100
+beta1: 0.5
+nz: 1024
+ngh: 4096
+ndh: 4096
+critic_iter: 5
+
+# gp
+lambda1: 10
+
+# classifier
+batch_cls: 128
+cls_nepoch: 25
+classifier_lr: 0.001
+
+#circle loss
+m: 0.6
+gamma: 128

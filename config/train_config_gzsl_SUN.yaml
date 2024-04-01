@@ -1,0 +1,44 @@
+dataset: SUN
+dataroot: ./data
+
+image_embedding: res101
+class_embedding: att
+syn_num: 60
+
+gpus: 0
+cuda: True
+gzsl: True
+save_model: False
+
+manualSeed: 9143
+attSize: 102
+resSize: 2048
+embedSize: 2048
+nclass_all: 717
+nclass_seen: 645
+
+# gan
+batch_size: 1024
+nepoch: 1200
+lr: 0.0001
+lr_dec_rate: 0.99
+lr_decay_epoch: 100
+beta1: 0.5
+nz: 102
+ngh: 4096
+ndh: 4096
+critic_iter: 5
+
+# gp
+lambda1: 10
+
+# classifier
+batch_cls: 128
+cls_nepoch: 100
+classifier_lr: 0.0005
+
+# circle loss
+m: 0.8
+gamma: 128
+
+best_acc: 0.41

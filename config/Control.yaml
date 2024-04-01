@@ -1,0 +1,9 @@
+CONFIG_PATH:
+  gzsl:
+    APY: train_config_gzsl_APY.yaml
+    AWA2: train_config_gzsl_AWA2.yaml
+    CUB: train_config_gzsl_CUB.yaml
+    FLO: train_config_gzsl_FLO.yaml
+    SUN: train_config_gzsl_SUN.yaml
+dataset: CUB
+settings: gzsl
