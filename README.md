@@ -40,7 +40,7 @@ python inference.py
 python train.py
 ```
 
-### Citation
+### Citation (coming soon)
 If you find this useful, please cite:
 ```
 ```
