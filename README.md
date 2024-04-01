@@ -1,6 +1,6 @@
 # IVSA-GZSL
 Codes for the Multimedia Systems 2024 paper: [Indirect Visual-Semantic Alignment for Generalized Zero-Shot Recognition](https://link.springer.com/journal/530).
-![](./images/framework)
+![](./images/framework.png)
 
 ## Indirect Visual-Semantic Alignment for Generalized Zero-Shot Recognition
 ### Dependencies
@@ -17,7 +17,7 @@ Please download the [datasets](https://drive.google.com/drive/folders/1sL2wrQmwU
 Please download the [pretrained weight](https://drive.google.com/drive/folders/1sL2wrQmwUtoEvCTaEpVYZsIkNIde2wC2?usp=sharing) 'pretrained' in the directory './IVSA-GZSL/', so the path is './IVSA-GZSL/pretrained/'.
 
 ### Evaluate
-![](./images/comparison)
+![](./images/comparison.png)
 - If you want to evaluate all datasets, run:  
 ```
 python eval_AllDataset.py
