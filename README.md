@@ -17,7 +17,6 @@ Please download the [datasets](https://drive.google.com/drive/folders/1sL2wrQmwU
 Please download the [pretrained weight](https://drive.google.com/drive/folders/1sL2wrQmwUtoEvCTaEpVYZsIkNIde2wC2?usp=sharing) 'pretrained' in the directory './IVSA-GZSL/', so the path is './IVSA-GZSL/pretrained/'.
 
 ### Evaluate
-![](./images/comparison.png)
 - If you want to evaluate all datasets, run:  
 ```
 python eval_AllDataset.py
