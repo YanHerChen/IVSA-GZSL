@@ -1,5 +1,5 @@
 # IVSA-GZSL
-Codes for the Multimedia Systems 2024 paper: [Indirect Visual-Semantic Alignment for Generalized Zero-Shot Recognition]([https://link.springer.com/journal/530](https://doi.org/10.1007/s00530-024-01313-z)).
+Codes for the Multimedia Systems 2024 paper: [Indirect Visual-Semantic Alignment for Generalized Zero-Shot Recognition](https://link.springer.com/journal/530](https://doi.org/10.1007/s00530-024-01313-z)).
 ![](./images/framework.png)
 
 ## Indirect Visual-Semantic Alignment for Generalized Zero-Shot Recognition
