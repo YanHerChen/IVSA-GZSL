@@ -39,7 +39,7 @@ python eval.py
 python train.py
 ```
 
-### Citation (coming soon)
+### Citation
 If you find this useful, please cite:
 ```
 @article{chen2024indirect,
