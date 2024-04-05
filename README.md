@@ -43,7 +43,7 @@ python train.py
 If you find this useful, please cite:
 ```
 @article{chen2024indirect,
-  title={Indirect visual--semantic alignment for generalized zero-shot recognition},
+  title={Indirect visual-semantic alignment for generalized zero-shot recognition},
   author={Chen, Yan-He and Yeh, Mei-Chen},
   journal={Multimedia Systems},
   volume={30},
