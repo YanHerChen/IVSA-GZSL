@@ -42,4 +42,14 @@ python train.py
 ### Citation (coming soon)
 If you find this useful, please cite:
 ```
+@article{chen2024indirect,
+  title={Indirect visual--semantic alignment for generalized zero-shot recognition},
+  author={Chen, Yan-He and Yeh, Mei-Chen},
+  journal={Multimedia Systems},
+  volume={30},
+  number={2},
+  pages={111},
+  year={2024},
+  publisher={Springer}
+}
 ```
